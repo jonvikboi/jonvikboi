@@ -1,9 +1,9 @@
-Hi 
+Hi!
 ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)
- My name is Joshua Zachary Jose
+My name is _Joshua Zachary Jose_
 ============================================================================================================================================
 
-AI Enthusiast and Future Software Developer
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=3000&pause=1000&center=true&vCenter=true&width=435&lines=AI+Enthusiast+and+Future+Software+Dev)](https://git.io/typing-svg)
 -------------------------------------------
 
 I've been learning Python for 5 years, and now I'm learning all sorts of
