@@ -32,4 +32,4 @@ activities.
 
 <b>My GitHub Stats</b>
 
-<a href="http://www.github.com/joshuazacharyjose"><img src="https://github-readme-stats.vercel.app/api?username=jonvikboi&show_icons=true&hide=&count_private=true&title_color=000000&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="jonvikboi's GitHub stats" /></a>
+[![GitHub Stats](https://gh-readme-profile.vercel.app/api?username=jonvikboi&theme=github_dark)](https://github.com/FajarKim/github-readme-profile)
