@@ -1,15 +1,16 @@
-Hi!
-![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)
-My name is _Joshua Zachary Jose_
-============================================================================================================================================
+<p align="center"> 
+ <img src="https://capsule-render.vercel.app/api?type=blur&height=300&color=gradient&text=Joshua%20Zachary%20Jose&textBg=false&animation=fadeIn&desc=B.Tech%20Student%20--%20AI%20Enthusiast&descSize=19&descAlign=35&descAlignY=60&rotate=3&fontAlign=50&section=header&reversal=false" />
+</p>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=3000&pause=1000&center=true&vCenter=true&width=435&lines=AI+Enthusiast+and+Future+Software+Dev)](https://git.io/typing-svg)
+Greetings, visitor!
+![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)
+My name is _Joshua Zachary Jose_.
 -------------------------------------------
 
-I've been learning Python for 5 years, and now I'm learning all sorts of
- programming languages. I am keen in creating programs to make life 
-easier for others. I'm an ambivert, but I can engage in many coding 
-activities.
+I've been learning programming languages for 5 years, and now I'm learning all sorts of
+theory and practical components, from web develpoment, to program creation. I am keen in 
+creating programs to make life easier for others. I'm an ambivert, but I can engage in many
+coding activities.
 
 *   🌍  I'm based in Kottayam, Kerala, India
 *   ✉️  You can contact me at 
