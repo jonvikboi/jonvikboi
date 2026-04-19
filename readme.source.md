@@ -16,15 +16,10 @@
         0%, 100% { transform: translate(0, 0); opacity: 0.4; }
         50% { transform: translate(-80px, -30px); opacity: 0.7; }
       }
-      @keyframes scanline {
-        0% { transform: translateY(-100%); }
-        100% { transform: translateY(100%); }
-      }
       #glow-red-1 { animation: float-crimson 10s ease-in-out infinite; }
       #glow-red-2 { animation: float-primary 12s ease-in-out infinite reverse; }
     `}</style>
 
-  {/* Animated Background Aura */}
   <svg width="860" height="200" style={{ position: 'absolute', top: 0, left: 0 }}>
     <defs>
       <radialGradient id="grad-crimson" cx="50%" cy="50%" r="50%">
@@ -78,64 +73,76 @@
 </div>
 ```
 
-```aura width=860 height=260 link="https://github.com/jonvikboi"
+```aura width=860 height=440 link="https://github.com/jonvikboi"
 <div style={{
   width: '100%', height: '100%', background: 'rgba(10, 0, 5, 1)',
-  display: 'flex', flexDirection: 'column', padding: '32px 48px',
+  display: 'flex', flexDirection: 'column', padding: '40px 48px',
   fontFamily: 'Inter, sans-serif', position: 'relative', overflow: 'hidden',
-  borderRadius: 20, border: '1px solid rgba(244, 12, 63, 0.15)'
+  borderRadius: 24, border: '1px solid rgba(244, 12, 63, 0.15)'
 }}>
 
-  <style>{`
-    @keyframes pulse-border {
-      0%, 100% { border-color: rgba(244, 12, 63, 0.2); }
-      50% { border-color: rgba(244, 12, 63, 0.5); }
-    }
-    .tech-card { animation: pulse-border 4s infinite; }
-  `}</style>
-
-  <div style={{ display: 'flex', gap: 40, width: '100%', height: '100%' }}>
+  {/* Header Section */}
+  <div style={{ display: 'flex', flexDirection: 'column', gap: 32 }}>
     
     {/* Web Dev Stack */}
-    <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 16 }}>
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
       <div style={{ 
-        fontSize: 14, fontWeight: 800, color: 'rgba(244, 12, 63, 1)', 
-        letterSpacing: '2px', textTransform: 'uppercase' 
+        fontSize: 13, fontWeight: 800, color: 'rgba(244, 12, 63, 0.8)', 
+        letterSpacing: '3px', textTransform: 'uppercase' 
       }}>
-        Web Dev Stack
+        Web Development
       </div>
-      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
-        {['HTML', 'CSS', 'JAVASCRIPT', 'TYPESCRIPT', 'TAILWIND CSS', 'REACT', 'NEXT.JS'].map(tech => (
-          <div key={tech} className="tech-card" style={{
-            padding: '8px 16px', borderRadius: 12, background: 'rgba(49, 1, 8, 0.5)',
-            border: '1px solid rgba(110, 4, 25, 0.4)', color: 'rgba(255, 255, 255, 0.85)',
-            fontSize: 12, fontWeight: 600, letterSpacing: '0.5px'
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 12 }}>
+        {[
+          { name: 'HTML5', slug: 'html5' },
+          { name: 'CSS3', slug: 'css3' },
+          { name: 'JavaScript', slug: 'javascript' },
+          { name: 'TypeScript', slug: 'typescript' },
+          { name: 'Tailwind', slug: 'tailwindcss' },
+          { name: 'React', slug: 'react' },
+          { name: 'Next.js', slug: 'nextdotjs' }
+        ].map(tech => (
+          <div key={tech.name} style={{
+            width: 168, height: 46, borderRadius: 10,
+            background: 'rgba(49, 1, 8, 1)', 
+            border: '2px solid rgba(110, 4, 25, 1)',
+            display: 'flex', alignItems: 'center', padding: '0 14px', gap: 12,
+            boxShadow: '0 4px 12px rgba(0,0,0,0.4)',
+            backgroundImage: 'linear-gradient(to right, rgba(255,255,255,0.05) 0%, rgba(49,1,8,1) 12%, rgba(110,4,25,0.4) 50%, rgba(244,12,63,0.3) 65%, rgba(49,1,8,1) 85%, rgba(110,4,25,1) 100%)'
           }}>
-            {tech}
+            <img src={'https://cdn.simpleicons.org/' + tech.slug + '/white'} width={22} height={22} />
+            <span style={{ fontSize: 13, fontWeight: 600, color: '#fff', letterSpacing: '0.2px' }}>{tech.name}</span>
           </div>
         ))}
       </div>
     </div>
 
-    {/* Separator Line */}
-    <div style={{ width: 1, background: 'linear-gradient(to bottom, transparent, rgba(244, 12, 63, 0.3), transparent)' }} />
-
     {/* Coding Stack */}
-    <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 16 }}>
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
       <div style={{ 
-        fontSize: 14, fontWeight: 800, color: 'rgba(244, 12, 63, 1)', 
-        letterSpacing: '2px', textTransform: 'uppercase' 
+        fontSize: 13, fontWeight: 800, color: 'rgba(244, 12, 63, 0.8)', 
+        letterSpacing: '3px', textTransform: 'uppercase' 
       }}>
-        Coding Stack
+        Coding languages
       </div>
-      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
-        {['PYTHON', 'C', 'C++', 'JAVA', 'SHELL'].map(tech => (
-          <div key={tech} className="tech-card" style={{
-            padding: '8px 16px', borderRadius: 12, background: 'rgba(49, 1, 8, 0.5)',
-            border: '1px solid rgba(110, 4, 25, 0.4)', color: 'rgba(255, 255, 255, 0.85)',
-            fontSize: 12, fontWeight: 600, letterSpacing: '0.5px'
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 12 }}>
+        {[
+          { name: 'Python', slug: 'python' },
+          { name: 'C', slug: 'c' },
+          { name: 'C++', slug: 'cplusplus' },
+          { name: 'Java', slug: 'openjdk' },
+          { name: 'Shell', slug: 'gnubash' }
+        ].map(tech => (
+          <div key={tech.name} style={{
+            width: 168, height: 46, borderRadius: 10,
+            background: 'rgba(49, 1, 8, 1)', 
+            border: '2px solid rgba(110, 4, 25, 1)',
+            display: 'flex', alignItems: 'center', padding: '0 14px', gap: 12,
+            boxShadow: '0 4px 12px rgba(0,0,0,0.4)',
+            backgroundImage: 'linear-gradient(to right, rgba(255,255,255,0.05) 0%, rgba(49,1,8,1) 12%, rgba(110,4,25,0.4) 50%, rgba(244,12,63,0.3) 65%, rgba(49,1,8,1) 85%, rgba(110,4,25,1) 100%)'
           }}>
-            {tech}
+            <img src={'https://cdn.simpleicons.org/' + tech.slug + '/white'} width={22} height={22} />
+            <span style={{ fontSize: 13, fontWeight: 600, color: '#fff', letterSpacing: '0.2px' }}>{tech.name}</span>
           </div>
         ))}
       </div>
@@ -143,10 +150,13 @@
 
   </div>
 
-  {/* Accent Glow */}
   <div style={{
-    position: 'absolute', bottom: -50, right: -50, width: 200, height: 200,
-    background: 'rgba(110, 4, 25, 0.2)', filter: 'blur(60px)', borderRadius: '100%'
+    position: 'absolute', top: -100, right: -100, width: 300, height: 300,
+    background: 'rgba(244, 12, 63, 0.12)', filter: 'blur(80px)', borderRadius: '100%'
+  }} />
+  <div style={{
+    position: 'absolute', bottom: -100, left: -100, width: 300, height: 300,
+    background: 'rgba(110, 4, 25, 0.15)', filter: 'blur(80px)', borderRadius: '100%'
   }} />
 </div>
 ```
