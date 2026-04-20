@@ -118,15 +118,8 @@
         box-shadow: 0 0 15px rgba(244, 12, 63, 0.6);
       }
     }
-    @keyframes star-float {
-      0% { transform: translateY(0) translateX(0); opacity: 0; }
-      20% { opacity: 0.8; }
-      80% { opacity: 0.8; }
-      100% { transform: translateY(-100px) translateX(100px); opacity: 0; }
-    }
     .pill-button { animation: breathe 3s infinite ease-in-out; }
     #tech-nebula { animation: orbit-fast 20s linear infinite; transform-origin: center; }
-    .star { animation: star-float 5s linear infinite; }
   `}</style>
 
   <svg width="860" height="380" style={{ position: 'absolute', top: 0, left: 0 }}>
@@ -144,15 +137,6 @@
       <circle cx="150" cy="190" r="350" fill="url(#tech-g1)" />
       <circle cx="710" cy="220" r="300" fill="url(#tech-g2)" />
     </g>
-    {[
-      {x: 100, y: 100, s: 2, d: '0s'},
-      {x: 700, y: 50, s: 3, d: '1.5s'},
-      {x: 400, y: 300, s: 2, d: '3s'},
-      {x: 200, y: 350, s: 1.5, d: '0.5s'},
-      {x: 800, y: 200, s: 2.5, d: '2s'}
-    ].map((star, i) => (
-      <circle key={i} className="star" cx={star.x} cy={star.y} r={star.s} fill="white" style={{animationDelay: star.d}} />
-    ))}
   </svg>
 
   <div style={{ display: 'flex', flexDirection: 'column', gap: 40, zIndex: 10 }}>
