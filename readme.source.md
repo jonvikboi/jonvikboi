@@ -190,3 +190,92 @@
   </div>
 </div>
 ```
+
+```aura width=120 height=44 link="https://www.linkedin.com/in/joshuazacharyjose" inline align=center
+<SocialMediaButton
+  icon="https://raw.githubusercontent.com/jonvikboi/jonvikboi/main/icons/linkedin.svg"
+  text="Linkedin"
+  backgroundColor="rgba(49, 1, 8, 1)"
+  width={120}
+  height={44}
+  gradientStops={[
+    { offset: '0%', color: 'rgba(244, 12, 63, 0.8)' },
+    { offset: '30%', color: 'rgba(49, 1, 8, 1)' },
+    { offset: '60%', color: 'rgba(229, 11, 59, 0.8)' },
+    { offset: '80%', color: 'rgba(49, 1, 8, 1)' },
+    { offset: '100%', color: 'rgba(244, 12, 63, 0.5)' },
+  ]}
+/>
+```
+
+```aura width=138 height=44 link="https://x.com/mistah_jzj" inline align=center
+<SocialMediaButton
+  icon="https://raw.githubusercontent.com/jonvikboi/jonvikboi/main/icons/x.svg"
+  text="X.com"
+  backgroundColor="rgba(49, 1, 8, 1)"
+  width={138}
+  height={44}
+  gradientStops={[
+    { offset: '0%', color: 'rgba(244, 12, 63, 0.8)' },
+    { offset: '30%', color: 'rgba(49, 1, 8, 1)' },
+    { offset: '60%', color: 'rgba(229, 11, 59, 0.8)' },
+    { offset: '80%', color: 'rgba(49, 1, 8, 1)' },
+    { offset: '100%', color: 'rgba(244, 12, 63, 0.5)' },
+  ]}
+/>
+```
+
+```aura width=130 height=44 link="https://www.instagram.com/__jooosh__j" inline align=center
+<SocialMediaButton
+  icon="https://raw.githubusercontent.com/jonvikboi/jonvikboi/main/icons/instagram.svg"
+  text="Instagram"
+  backgroundColor="rgba(49, 1, 8, 1)"
+  width={130}
+  height={44}
+  gradientStops={[
+    { offset: '0%', color: 'rgba(244, 12, 63, 0.8)' },
+    { offset: '30%', color: 'rgba(49, 1, 8, 1)' },
+    { offset: '60%', color: 'rgba(229, 11, 59, 0.8)' },
+    { offset: '80%', color: 'rgba(49, 1, 8, 1)' },
+    { offset: '100%', color: 'rgba(244, 12, 63, 0.5)' },
+  ]}
+/>
+```
+
+```aura width=110 height=44 link="mailto:mistahjzj@gmail.com" inline align=center
+<SocialMediaButton
+  icon="https://raw.githubusercontent.com/jonvikboi/jonvikboi/main/icons/gmail.svg"
+  text="Email"
+  backgroundColor="rgba(49, 1, 8, 1)"
+  width={110}
+  height={44}
+  gradientStops={[
+    { offset: '0%', color: 'rgba(244, 12, 63, 0.8)' },
+    { offset: '30%', color: 'rgba(49, 1, 8, 1)' },
+    { offset: '60%', color: 'rgba(229, 11, 59, 0.8)' },
+    { offset: '80%', color: 'rgba(49, 1, 8, 1)' },
+    { offset: '100%', color: 'rgba(244, 12, 63, 0.5)' },
+  ]}
+/>
+```
+
+```aura width=130 height=44 link="https://www.jonvikboi.vercel.app" inline align=center
+<SocialMediaButton
+  icon="https://raw.githubusercontent.com/jonvikboi/jonvikboi/main/icons/jvb.svg"
+  text="Website"
+  backgroundColor="rgba(49, 1, 8, 1)"
+  width={130}
+  height={44}
+  gradientStops={[
+    { offset: '0%', color: 'rgba(244, 12, 63, 0.8)' },
+    { offset: '30%', color: 'rgba(49, 1, 8, 1)' },
+    { offset: '60%', color: 'rgba(229, 11, 59, 0.8)' },
+    { offset: '80%', color: 'rgba(49, 1, 8, 1)' },
+    { offset: '100%', color: 'rgba(244, 12, 63, 0.5)' },
+  ]}
+/>
+```
+
+<p align="center">
+<a href="https://www.linkedin.com/in/joshuazacharyjose"><img src="./.github/assets/readme-aura-component-2.svg" width="120" height="44" /></a><a href="https://x.com/mistah_jzj"><img src="./.github/assets/readme-aura-component-3.svg" width="138" height="44" /></a><a href="https://www.instagram.com/__jooosh__j"><img src="./.github/assets/readme-aura-component-4.svg" width="130" height="44" /></a><a href="mailto:mistahjzj@gmail.com"><img src="./.github/assets/readme-aura-component-5.svg" width="110" height="44" /></a><a href="https://www.jonvikboi.vercel.app"><img src="./.github/assets/readme-aura-component-6.svg" width="130" height="44" /></a>
+</p>
