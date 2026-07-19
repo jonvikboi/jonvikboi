@@ -5,3 +5,5 @@
 <p align="center">
 <a href="https://www.linkedin.com/in/joshuazacharyjose"><img src="./.github/assets/readme-aura-component-2-ca488a59.svg" width="120" height="44" /></a><a href="https://x.com/mistah_jzj"><img src="./.github/assets/readme-aura-component-3-0b558804.svg" width="138" height="44" /></a><a href="https://www.instagram.com/__jooosh__j"><img src="./.github/assets/readme-aura-component-4-287ea6e9.svg" width="130" height="44" /></a><a href="mailto:mistahjzj@gmail.com"><img src="./.github/assets/readme-aura-component-5-8bc14167.svg" width="110" height="44" /></a><a href="https://jonvikboi.vercel.app"><img src="./.github/assets/readme-aura-component-6-727d4670.svg" width="130" height="44" /></a>
 </p>
+
+![snake gif](https://github.com/jonvikboi/jonvikboi/blob/output/github-snake-dark.svg)
