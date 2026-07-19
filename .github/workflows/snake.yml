@@ -23,6 +23,9 @@ on:
 
       - main
 
+permissions:
+  contents: write
+
 
 jobs:
 
@@ -87,4 +90,3 @@ jobs:
           # Optionally, you can set a custom commit message
 
           commit_message: "Update snake animation [skip ci]"
-
